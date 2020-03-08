@@ -10,7 +10,7 @@ body {
 a,
 button {
     transition: all .3s ease-in-out;
-    outline: none!important;
+    outline-color: currentColor;
 }
 
 a:hover {
@@ -653,6 +653,7 @@ a {
     font-weight: 400;
     color: #575757!important;
 }
+
 
 .container {
     max-width: 1000px;
