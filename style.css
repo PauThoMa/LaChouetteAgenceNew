@@ -676,18 +676,11 @@ a {
     margin: auto auto auto auto;
 }
 
-p {
-    font-size: 11px;
-}
+
 
 .tight-width-whitespace {
     max-width: 600px;
     margin: auto auto auto auto;
-}
-
-.h1 {
-    font-size: 20px;
-    font-family: "Open Sans";
 }
 
 .cta-hero {
@@ -703,32 +696,37 @@ p {
     max-width: 400px;
     margin: auto auto auto auto;
 }
-
+.h1 {
+    font-size: 26px;
+    font-family: "Open Sans";
+    color: #333333!important;
+}
 h2 {
     font-size: 22px;
     line-height: 1.4em;
 }
 
 h3 {
-    font-size: 15px;
+    font-size: 16px;
     text-transform: uppercase;
     font-weight: 700;
     color: #333333!important;
 }
-
+h4 {
+    color: #333333!important;
+}
+p {
+    font-size: 14px;
+}
 .med-width-whitespace {
     max-width: 800px;
     margin: auto auto auto auto;
     box-shadow: 0px 0px 0px #000000;
 }
 
-h1 {
-    color: #333333!important;
-}
 
-h4 {
-    color: #333333!important;
-}
+
+
 
 .icons {
     margin-bottom: 14px;
@@ -824,6 +822,8 @@ h4 {
 .bg-presentation {
     background-image: url("img/image_de_presentation.jpg");
 }
+
+
 
 @media (max-width: 1024px) {
     .bloc {
