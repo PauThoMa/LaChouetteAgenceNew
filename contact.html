@@ -58,16 +58,8 @@
 					<span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
 				</button>
 			</div>
-			<div class="collapse navbar-collapse navbar-1 special-dropdown-nav">
-				<ul class="site-navigation nav navbar-nav">
-					<li>
-						<a href="index.html">Accueil</a>
-					</li>
-					
-					<li>
-						<a href="page2.html">Contact &gt;</a>
-					</li>
-				</ul>
+			<div>
+						<a href="index.html">Accueil</a>	
 			</div>
 		</nav>
 	</div>
@@ -100,27 +92,29 @@
 			<div class="col-sm-6">
 				<form id="form_1" novalidate success-msg="Your message has been sent." fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
 					<div class="form-group">
-						<label>
+						<label for="name">
 							Nom
 						</label>
 						<input id="name" class="form-control" required />
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="email">
 							Adresse email
 						</label>
 						<input id="email" class="form-control" type="email" required />
+						
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="comment">
 							Comment nous avez-vous connu ?
 						</label>
-						<input class="form-control" type="email" required id="input_504" />
+						<textarea class="form-control" type="email" required id="comment"></textarea>
 					</div>
 					<div class="form-group">
-						<label>
+						<label for="msg">
 							Brief de votre projet (Ajoutez autant de détails que nécessaire)<br>
-						</label><textarea id="message" class="form-control" rows="4" cols="50" required></textarea>
+						</label>
+						<textarea id="msg" class="form-control" rows="4" cols="50" required></textarea>
 					</div> 
 					<button class="bloc-button btn btn-lg btn-block cta-hero btn-atomic-tangerine" type="submit">
 						Envoyer
@@ -149,10 +143,10 @@
 	<div class="container bloc-sm">
 		<div class="row">
 			<div class="col-sm-12">
-				<p class="text-center white">
-					La chouette agence - Agence web basée à Lyon.<br>
-				</p>
-				<div class="row row-no-gutters social">
+				<h4 class="text-center ">
+					La chouette agence - Agence web basée à Lyon.
+				</h4>
+				<aside class="row row-no-gutters social">
 					<div class="col-sm-3">
 						<div class="text-center">
 							<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
@@ -173,7 +167,8 @@
 							<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
 						</div>
 					</div>
-				</div>
+					
+				</aside>
 			</div>
 		</div>
 	</div>

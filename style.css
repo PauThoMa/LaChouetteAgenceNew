@@ -17,6 +17,9 @@ a:hover {
     text-decoration: none;
     cursor: pointer;
 }
+a:focus{
+    border: solid 2px peachpuff;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
@@ -93,6 +96,7 @@ a:hover {
 .texture-paper::before {
     background: url("img/texture_paper.jpg");
     background-size: 280px 280px;
+    opacity: 0.3;
 }
 
 .b-parallax {
@@ -509,6 +513,9 @@ button {
     border-color: rgba(0, 0, 0, .1);
     box-shadow: none;
 }
+input:focus,textarea:focus{
+    border: solid 2px peachpuff;
+}
 
 .scrollToTop {
     width: 40px;
@@ -554,7 +561,7 @@ a[data-lightbox]:hover::before {
     -webkit-transform: translateY(-50%);
 }
 
-a[data-lightbox]:hover img {
+a[data-lightbox]:hover  {
     opacity: 0.6;
     -webkit-animation-fill-mode: none;
     animation-fill-mode: none;
@@ -651,7 +658,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: #1F1F1F!important;
 }
 
 
@@ -770,7 +777,7 @@ p {
 }
 
 .bgc-atomic-tangerine {
-    background-color: #F3976C;
+    background-color: #a94442;
 }
 
 .tc-white {
