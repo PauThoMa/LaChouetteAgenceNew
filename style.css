@@ -20,6 +20,9 @@ a:hover {
 a:focus{
     border: solid 2px peachpuff;
 }
+.fa{
+    color: peachpuff;
+}
 
 #page-loading-blocs-notifaction {
     position: fixed;
