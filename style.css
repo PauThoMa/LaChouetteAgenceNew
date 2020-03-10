@@ -21,7 +21,10 @@ a:focus{
     border: solid 2px peachpuff;
 }
 .fa{
-    color: peachpuff;
+    color: peachpuff !important;
+}
+.purple{
+    color:#a94442 ;
 }
 
 #page-loading-blocs-notifaction {

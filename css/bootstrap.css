@@ -1875,7 +1875,7 @@ blockquote small {
     display: block;
     font-size: 80%;
     line-height: 1.42857143;
-    color: #525252;
+    columns: #525252;
 }
 
 blockquote .small:before,
