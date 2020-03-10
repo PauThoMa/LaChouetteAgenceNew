@@ -551,6 +551,8 @@ a {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 .h1 {
     font-size: 26px;
@@ -743,6 +745,13 @@ p {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
     }
+    .social{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+    }
+   
 }
 
 @media (max-width: 767px) {
@@ -884,10 +893,18 @@ p {
     }
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
+    }
+    .responsive{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .media_margin{
+        margin-left: 25%;
     }
 }
 

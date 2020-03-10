@@ -1406,7 +1406,7 @@ textarea {
 }
 
 a {
-    color: #337ab7;
+
     text-decoration: none
 }
 
@@ -1427,7 +1427,9 @@ figure {
 }
 
 img {
-    vertical-align: middle
+    vertical-align: middle;
+    margin: auto;
+
 }
 
 .carousel-inner>.item>a>img,
