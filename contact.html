@@ -41,26 +41,34 @@
 		gtag('config', 'UA-159919225-1');
 	</script>
 
+<script src="./js/blocs.js" async></script>
+
 </head>
 
 <body>
 
-	<header class="bloc bgc-white l-bloc " id="bloc-0">
-		<div class="container bloc-sm">
-			<nav class="navbar row">
-				<div class="navbar-header">
-					<a class="navbar-brand" href="index.html"><img src="img/la-chouette-agence.png"
-							alt="Logo de la Chouette Agence" height="40" /></a>
-					<button id="nav-toggle" type="button" class="ui-navbar-toggle navbar-toggle" data-toggle="collapse"
-						data-target=".navbar-1">
-						<span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span>
-					</button>
-				</div>
-				<div>
-					<a href="index.html">Accueil</a>
-				</div>
-			</nav>
-		</div>
+	<header class="col-sm-12" id="bloc-0">
+		
+		<nav class="nav">
+			<input type="checkbox" id="nav-check">
+			<div class="nav-header">
+			  <div class="nav-title"><p>
+				La Chouette Agence</p>
+			  </div>
+			</div>
+			<div class="nav-btn">
+			  <label for="nav-check">
+				<span></span>
+				<span></span>
+				<span></span>
+			  </label>
+			</div>
+			
+			<div class="nav-links">
+			 <a class="nav-link liens" href="index.html">Accueil</a>
+			</div>
+		</nav>
+		
 	</header>
 
 	<main class="page-container">
@@ -86,8 +94,7 @@
 			<div class="container bloc-lg">
 				<div class="row">
 					<div class="col-sm-6">
-						<form id="form_1" novalidate success-msg="Your message has been sent."
-							fail-msg="Sorry it seems that our mail server is not responding, Sorry for the inconvenience!">
+						<form id="form_1" novalidate>
 							<div class="form-group">
 								<label for="name">
 									Nom
@@ -105,7 +112,7 @@
 								<label for="comment">
 									Comment nous avez-vous connu ?
 								</label>
-								<textarea class="form-control" type="email" required id="comment"></textarea>
+								<textarea class="form-control" required id="comment"></textarea>
 							</div>
 							<div class="form-group">
 								<label for="msg">
@@ -125,6 +132,7 @@
 							au vendredi<br>
 						</p>
 					</aside>
+				
 				</div>
 			</div>
 		</section>
@@ -137,31 +145,10 @@
 				<div class="col-sm-12">
 					<h4 class="text-center">
 						La chouette agence - Agence web basée à Lyon.</h4>
-
-					<aside class="row row-no-gutters social">
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-twitter icon-md"></span></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-facebook icon-md"></span></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-dribbble icon-md"></span></a>
-							</div>
-						</div>
-						<div class="col-sm-3">
-							<div class="text-center">
-								<a class="social" href="index.html"><span class="fa fa-instagram icon-md"></span></a>
-							</div>
-						</div>
-
-					</aside>
 				</div>
+					<div>
+						<a class="mentions" href="mentions.html" alt=" page des mentions légales">Mentions légales</a>
+					</div>
 			</div>
 		</div>
 

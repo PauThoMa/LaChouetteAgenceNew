@@ -27,6 +27,168 @@ a:focus{
     color:#a94442 ;
 }
 
+/* navigation */
+header{
+    padding: 0;
+}
+.nav {
+    height: 80px;
+    width: 100%;
+    background-color: #4d4d4d;
+    position: relative;
+    
+    
+  }
+  
+  .nav > .nav-header {
+    display: inline;
+    vertical-align: middle;
+  }
+  
+  .nav > .nav-header > .nav-title  {
+    display: inline-block;
+    color: #fff;
+    font-family: "helvetica";
+    height: max-content;
+    vertical-align: middle;
+    font-size: 30px;
+    padding: 20px;
+  }
+  .nav-title p{
+      font-size: 30px;
+      padding: auto;
+  }
+
+  
+  .nav > .nav-btn {
+    display: none;
+  }
+  
+  .nav > .nav-links {
+    display: inline;
+    float: right;
+    font-size: 18px;
+    color: #fff !important;
+    height: 100%;
+    
+  }
+  
+  
+  .nav > .nav-links > a {
+    display: inline-block;
+    padding: 30px 30px 30px 30px;
+    text-decoration: none;
+    
+  }
+  
+  .nav > .nav-links > a:hover {
+    background-color:peachpuff;
+    color:#a94442 !important;
+    
+  }
+  
+  
+  .nav > #nav-check {
+    display: none;
+  }
+  
+  @media (max-width:780px) {
+      main{
+          z-index: 1;
+      }
+
+    .nav{
+        height: 60px;
+        z-index: 2;
+    }
+    .nav-header{
+        vertical-align: middle;
+    }
+    .nav-title p{
+        font-size: 20px;
+    }
+      
+    .nav > .nav-btn {
+      display: inline-block;
+      position: absolute;
+      right: 0px;
+      top: 0px;
+    }
+    .nav > .nav-btn > label {
+      display: inline-block;
+      width: 50px;
+      height: 37px;
+      padding: 13px;
+      transition: all 0.4s ease-in-out ;
+    }
+    .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label{
+      transform: scale(1.4);
+     
+    }
+    .nav > .nav-btn > label > span {
+      display: block;
+      width: 25px;
+      height: 10px;
+      border-top: 2px solid #eee;
+    }
+    .nav > .nav-links {
+      position: absolute;
+      display: block;
+      width: 100%;
+      background-color: peachpuff;
+      height: 0px;
+      transition: all 0.3s ease-in;
+      overflow-y: hidden;
+      top: 50px;
+      left: 0px;
+    color:#a94442 !important;
+    
+    }
+    .nav > .nav-links > a {
+      display: block;
+      width: fit-content;
+      padding: 20px 20px 20px 20px;
+    }
+    
+    .nav > #nav-check:not(:checked) ~ .nav-links {
+      height: 0px;
+    }
+    .nav > #nav-check:checked ~ .nav-links {
+      height: fit-content;
+      overflow-y: auto;
+    }
+    .nav > .nav-header > .nav-title{
+        font-size: 22px;
+    }
+    .liens {
+        cursor: pointer;
+        position: relative;
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+      
+      .liens:before {
+        content: "";
+        position: absolute;
+        z-index: -1;
+        left: 0;
+        right: 100%;
+        bottom: 16px;
+        background: currentColor;
+        height: 2px;
+        -webkit-transition: right 0.3s ease-out;
+        transition: right 0.3s ease-out;
+        border-radius: 50%;
+      }
+      
+      .liens:hover:before {
+        right: 0;
+      }
+  }   
+    
+
 #page-loading-blocs-notifaction {
     position: fixed;
     top: 0;
@@ -506,7 +668,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #1F1F1F!important;
+    color: currentColor;
 }
 
 
