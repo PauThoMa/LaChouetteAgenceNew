@@ -196,7 +196,7 @@ header{
     }
     .nav > .nav-header > .nav-title{
         font-size: 22px;
-    
+        padding: 16px;
     }
     .liens {
         cursor: pointer;
@@ -219,6 +219,7 @@ header{
         -webkit-transition: right 0.3s ease-out;
         transition: right 0.3s ease-out;
         border-radius: 50%;
+        width: 30%;
       }
       
       .liens:hover:before {
