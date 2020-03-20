@@ -143,6 +143,7 @@ header{
     }
     .nav-title p{
         font-size: 20px;
+        margin: 0;
     }
       
     .nav > .nav-btn {
