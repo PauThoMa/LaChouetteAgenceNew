@@ -12,9 +12,7 @@ button {
     transition: all .3s ease-in-out;
     outline-color: currentColor;
 }
-a.transition:hover{
-    transition: scale(1.4) .3s ease-in-out;
-}
+
 a:hover {
     text-decoration: none !important;
     cursor: pointer;
@@ -89,6 +87,7 @@ header{
     height: max-content;
     vertical-align: middle;
     font-size: 30px;
+    padding: 16px;
     
   }
   .nav-title p{
@@ -197,7 +196,7 @@ header{
     }
     .nav > .nav-header > .nav-title{
         font-size: 22px;
-        padding: 16px;
+        padding: 8px;
     }
 
   }   
