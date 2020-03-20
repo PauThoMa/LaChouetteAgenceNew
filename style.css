@@ -191,12 +191,12 @@ header{
       height: 0px;
     }
     .nav > #nav-check:checked ~ .nav-links {
-      height: fit-content;
+      height: auto;
       overflow-y: auto;
     }
     .nav > .nav-header > .nav-title{
         font-size: 22px;
-        padding-top: 16px;
+    
     }
     .liens {
         cursor: pointer;
