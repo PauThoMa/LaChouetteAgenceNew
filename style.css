@@ -184,7 +184,7 @@ header{
     }
     .nav > .nav-links > a {
       display: block;
-      width: fit-content;
+      width: -moz-fit-content;
       padding: 20px 20px 20px 20px;
     }
     
@@ -199,33 +199,7 @@ header{
         font-size: 22px;
         padding: 16px;
     }
-    .liens {
-        cursor: pointer;
-        position: relative;
-        -webkit-transform: translateZ(0);
-                transform: translateZ(0);
-        padding-left: 20px;
-        padding-right: 20px;
-      }
-      
-      .liens:before {
-        content: "";
-        position: absolute;
-        z-index: -1;
-        left: 0;
-        right: 100%;
-        bottom: 16px;
-        background: currentColor;
-        height: 2px;
-        -webkit-transition: right 0.3s ease-out;
-        transition: right 0.3s ease-out;
-        border-radius: 50%;
-        width: 30%;
-      }
-      
-      .liens:hover:before {
-        right: 0;
-      }
+
   }   
     
 
