@@ -12,7 +12,9 @@ button {
     transition: all .3s ease-in-out;
     outline-color: currentColor;
 }
-
+a.transition:hover{
+    transition: scale(1.4) .3s ease-in-out;
+}
 a:hover {
     text-decoration: none !important;
     cursor: pointer;
@@ -31,6 +33,30 @@ a:focus{
     font-size: 16px;
 }
 
+/* style de la page mention */
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    display: flex;
+    justify-content: center;
+}
+.mention_header{
+ width: auto;
+ text-align: center;
+ margin: auto;
+}
+.mention_section{
+width: 100%;
+}
+.titre_underline{
+text-decoration: underline;
+}
+.aside_mention{
+border-left: 3px solid #a94442;
+}
 /* navigation */
 header{
     padding: 0;
@@ -56,11 +82,11 @@ header{
     height: max-content;
     vertical-align: middle;
     font-size: 30px;
-    padding: 20px;
+    
   }
   .nav-title p{
       font-size: 30px;
-      
+      margin: 23px;
   }
 
   
@@ -163,6 +189,7 @@ header{
     }
     .nav > .nav-header > .nav-title{
         font-size: 22px;
+        padding-top: 16px;
     }
     .liens {
         cursor: pointer;
